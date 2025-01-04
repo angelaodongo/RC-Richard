@@ -96,11 +96,18 @@ body{
 
 h1{
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 130px;
     color: #c6b79b;
     font-family: 'Notable';
 }
 
 h1 span{
     color: #c4391d;
+}
+
+.artist{
+    padding-top: 130px;
+    padding-left: 100px;
+    font-family: 'Permanent Marker';
+    color: #c4cdde;
 }
