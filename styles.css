@@ -95,10 +95,11 @@ body{
 }
 
 h1{
-    margin-top: 200px;
+    margin-top: 130px;
     margin-left: 130px;
     color: #c6b79b;
     font-family: 'Notable';
+    font-size: 50px;
 }
 
 h1 span{
@@ -106,9 +107,10 @@ h1 span{
 }
 
 .artist{
-    padding-top: 130px;
+    padding-top: 100px;
     padding-left: 100px;
     font-family: 'Permanent Marker';
+    font-size: 28px;
     color: #c4cdde;
 }
 
@@ -116,12 +118,48 @@ h1 span{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    padding-right: 100px;
+    padding-right: 20px;
     align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .gallery img{
     width: 400px;
     height: auto;
     margin-top: -470px;
+}
+
+@media (max-width: 768px){
+    .side-panel a {
+        font-size: 18px;
+    }
+    .side-panel .close-btn{
+        font-size: 24px;
+    }
+    .open-btn{
+        font-size: 24px;
+        padding: 8px 12px;
+    }
+    h1{
+        font-size: 1.8em;
+    }
+    p{
+        font-size: 1em;
+    }
+    .gallery{
+        margin-top: 150px;
+    }
+    .gallery img{
+        width: 200px;
+    }
+    .horizontal-line-top{
+        top: 15%;
+    }
+    .horizontal-line-middle{
+        top: 55%;
+    }
+    .horizontal-line-bottom{
+        bottom: 15%;
+    }
 }
