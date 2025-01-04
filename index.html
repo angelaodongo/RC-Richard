@@ -12,20 +12,20 @@
 </head>
 <body>
 <!-- NAVBAR HAMBURGER MENU -->
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Art</a></li>
-                <li><a href="#">Socials</a></li>
-                <li><a href="#">Collaborations</a></li>
-                <li><a href="#"><span class="ri-instagram-line"></span>Instagram</a></li>
-                <li><a href="#"><span class="ri-tiktok-line"></span>Tiktok</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="sidePanel" class="side-panel">
+        <a href="javascript:void(0)" class="close-btn" onclick="closePanel()">&times;</a>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Art</a>
+        <a href="">Socials</a>
+        <a href="">Collaborations</a>
+    </div>
 
+    <span class="open-btn" onclick="openPanel()">&#9776;</span>
+
+    <div class="container">
+
+    </div>
 
     <script src="script.js"></script>
 </body>
