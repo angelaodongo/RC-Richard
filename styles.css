@@ -9,19 +9,3 @@ body{
     background-size: cover;
     height: 100vh;
 }
-
-header{
-    height: 100vh;
-    width: 250px;
-    background-color: #c4a283;
-    box-shadow: 0 0 10px white;
-    z-index: 999;
-    position: fixed;
-    /* flex-direction: column; */
-    /* align-items: flex-end;
-    justify-content: flex-end; */
-}
-
-#check{
-    display: none;
-}
