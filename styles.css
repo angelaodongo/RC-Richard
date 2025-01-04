@@ -111,3 +111,17 @@ h1 span{
     font-family: 'Permanent Marker';
     color: #c4cdde;
 }
+
+.gallery{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 100px;
+    align-items: flex-start;
+}
+
+.gallery img{
+    width: 400px;
+    height: auto;
+    margin-top: -470px;
+}
